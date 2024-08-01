@@ -1,0 +1,17 @@
+.post-veiw-wrap {
+    border: 1px solid #aba3a3;
+    padding: 1rem 2rem 1rem 1rem;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.post-veiw-widget-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.post-veiw-number {
+    font-size: 24px;
+    font-weight: bold;
+}

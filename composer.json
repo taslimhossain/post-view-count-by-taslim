@@ -1,0 +1,20 @@
+{
+    "name": "taslimhossain/post-view-count-by-taslim",
+    "description": "A plugin allows user easily count views of posts.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "taslim",
+            "email": "tasliminfo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PVCBT\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
